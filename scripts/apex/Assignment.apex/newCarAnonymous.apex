@@ -1,0 +1,11 @@
+newCar nc = new newCar();
+nc.startCar('Lexus','RX350');
+nc.Accelerate(80);
+nc.checkSpeed();
+nc.Brake(55);
+nc.checkSpeed();
+nc.Accelerate(10);
+nc.checkSpeed();
+nc.Brake(40);
+nc.checkSpeed();
+nc.stopCar();
